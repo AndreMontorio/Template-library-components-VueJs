@@ -2,14 +2,36 @@
   "name": "fs-components",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/fs-components.umd.min.js",
+  "unpkg": "dist/fs-components.umd.min.js",
+  "jsdelivr": "dist/fs-components.umd.min.js",
+  "author": "Your name",
+  "license": "MIT", 
+  "description": "",
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/siegerts/vue-example-pkg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siegerts/vue-example-pkg/issues"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name fs-components src/main.js",
+    "prepublishOnly": "$npm_execpath build",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.4.4",
-    "vue": "^2.6.10"
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.1.0",
@@ -21,6 +43,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^5.0.0",
     "prettier": "^1.19.1",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.0.0-rc.1"
   }
 }
