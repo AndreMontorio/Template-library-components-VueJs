@@ -1,9 +1,9 @@
 {
   "name": "fs-components",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "private": false,
   "main": "dist/fs-components.common.js",
-  "author": "Your name",
+  "author": "André Montório",
   "license": "MIT", 
   "description": "",
   "files": [
