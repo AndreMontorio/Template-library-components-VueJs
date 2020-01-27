@@ -1,16 +1,17 @@
 {
   "name": "fs-components",
-  "version": "0.1.1",
-  "private": true,
-  "main": "dist/fs-components.umd.min.js",
-  "unpkg": "dist/fs-components.umd.min.js",
-  "jsdelivr": "dist/fs-components.umd.min.js",
+  "version": "0.1.4",
+  "private": false,
+  "main": "dist/fs-components.common.js",
   "author": "Your name",
   "license": "MIT", 
   "description": "",
   "files": [
     "dist/*",
-    "src/*"
+    "src/*",
+    "*.json",
+    "*.js",
+    "**.css"
   ],
   "homepage": "",
   "repository": {
@@ -23,7 +24,6 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name fs-components src/main.js",
-    "prepublishOnly": "$npm_execpath build",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "lint": "vue-cli-service lint"
