@@ -1,6 +1,6 @@
 {
   "name": "fs-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "main": "dist/fs-components.umd.min.js",
   "unpkg": "dist/fs-components.umd.min.js",
@@ -15,10 +15,10 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/siegerts/vue-example-pkg.git"
+    "url": "https://github.com/AndreMontorio/Template-library-components-VueJs.git"
   },
   "bugs": {
-    "url": "https://github.com/siegerts/vue-example-pkg/issues"
+    "url": "https://github.com/AndreMontorio/Template-library-components-VueJs/issues"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
