@@ -1,6 +1,6 @@
 # standard-component
 
-Wow! This component is awesome.
+Chama q chama
 
 ## Example
 

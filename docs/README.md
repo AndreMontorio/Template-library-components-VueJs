@@ -1,14 +1,12 @@
 ---
 home: true
 heroImage:
-actionText: Get Started →
-actionLink: /guide
+actionText: Começar →
+actionLink: /components/
 features:
   - title: Feature 1
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    details: Lançamento da nova biblioteca de componentes
   - title: Feature 2
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  - title: Feature 3
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-footer: Example Vue Component Library 2019
+    details: Lançamento do componente Sidenav
+footer: Consinco Vue Component Library
 ---

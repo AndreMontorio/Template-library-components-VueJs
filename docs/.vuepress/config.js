@@ -3,20 +3,22 @@ module.exports = {
     '/': {
       lang: 'en-US',
       title: 'FiveStar Components 🥂',
-      description: 'Documentation site for the Vue component library plugin'
+      description: 'Documentação da biblioteca de componentes Vue'
     }
   },
   themeConfig: {
-    repoLabel: 'Contribute!',
+    repoLabel: 'Contribua!',
     // git repo here... gitlab, github
-    repo: 'https://github.com/siegerts/vue-component-library-template',
+    repo: 'https://github.com/AndreMontorio/Template-library-components-VueJs',
     docsDir: 'docs',
     editLinks: true,
     docsBranch: 'master',
-    editLinkText: 'Help us improve this page!',
+    editLinkText: 'Ajude-nos a melhorar esta página!',
     search: false,
     locales: {
       '/': {
+        rel: "stylesheet",
+        href: "http://cdn.consinco.com.br/fivestyle/css/style.min.css",
         label: 'English',
         selectText: 'Languages',
         lastUpdated: 'Last Updated',
@@ -28,7 +30,6 @@ module.exports = {
           }
         },
         nav: [
-          { text: 'Getting Started', link: '/guide' },
           { text: 'Components', link: '/components/' },
           // external link to git repo...again
           {
@@ -41,7 +42,7 @@ module.exports = {
             {
               title: 'Components',
               collapsable: false,
-              children: ['standard-component','functional-component']
+              children: ['standard-component','functional-component', 'sidenav-component']
             }
           ]
         }

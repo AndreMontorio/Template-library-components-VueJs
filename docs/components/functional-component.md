@@ -1,6 +1,6 @@
 # functional-component
 
-Wow! This component is awesome.
+Wow! This rolling is awesome.
 
 ## Example
 

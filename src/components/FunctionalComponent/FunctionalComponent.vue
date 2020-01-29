@@ -16,7 +16,6 @@
 
 <script>
 export default {
-  // change this!
   name: "functional-component"
 };
 </script>

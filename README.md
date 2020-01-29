@@ -1,21 +1,26 @@
 # fs-components
 
-## Project setup
+## Instalar as dependências
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Consumir a documentação
 ```
-npm run serve
+npm run docs:dev
 ```
 
-### Compiles and minifies for production
+### Buildar documentação caso queira publicar
+```
+npm run docs:prod
+```
+
+### Compilar biblioteca
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Lints
 ```
 npm run lint
 ```

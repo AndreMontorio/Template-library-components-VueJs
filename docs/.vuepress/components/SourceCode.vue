@@ -2,7 +2,6 @@
 <template>
   <div>
     <slot>
-      salve
     </slot>
   </div>
 </template>

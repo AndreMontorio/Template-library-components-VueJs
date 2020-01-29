@@ -1,3 +1,3 @@
 # Components
 
-This is the index page for all of the documented components.
+Essa página contém a documentação para todos os componentes
